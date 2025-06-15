@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import DropZone from "@/components/DropZone";
 import ProgressBar from "@/components/ProgressBar";
@@ -109,7 +108,7 @@ const Index = () => {
         )}
 
         <div className="w-full max-w-xl mt-10 px-2">
-          <Alert variant="outline">
+          <Alert className="w-full">
             <Info className="w-5 h-5" />
             <AlertTitle>안내</AlertTitle>
             <AlertDescription>
